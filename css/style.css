@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* ------------------------------------  MOMENTOS CAPTURADOS  -------------------------------------------------*/
+#galeria img {
+  width: 100%;
+  height: 450px;
+  border-radius: 10px;
+}
+
+#galeria img:hover {
+  border: 5px solid white;
+}
+
+/* ------------------------------------  MOMENTOS CAPTURADOS  -------------------------------------------------*/
+/* ------------------------------------  LUGARES RANDOM  -------------------------------------------------*/
+.imgTam2 {
+  border-radius: 10px;
+  height: 600px;
+}
+
+.imgTam {
+  border-radius: 10px;
+  height: 506px;
+}
+
+.imgTam3 {
+  border-radius: 10px;
+  height: 600px;
+}
+
+/* ------------------------------------  LUGARES RANDOM  -------------------------------------------------*/
+/* ------------------------------------  TIPS -------------------------------------------------------------*/
+.tips {
+  background-image: url(../img/fotos1/foto1.jpg);
+  background-size: cover;
+}
+
+.card:hover {
+  -webkit-transform: rotateZ(350deg);
+          transform: rotateZ(350deg);
+}
+
+.card-img-top:hover {
+  -webkit-transform: rotateZ(15deg);
+          transform: rotateZ(15deg);
+}
+
+/* ------------------------------------  TIPS -------------------------------------------------------------*/
+/* ------------------------------------  FOOTER  -------------------------------------------------*/
+#logVsco {
+  width: 80%;
+  height: 40px;
+}
+
+/* ------------------------------------ FOOTER  -------------------------------------------------*/
+/*# sourceMappingURL=style.css.map */
