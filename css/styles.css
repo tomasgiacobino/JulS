@@ -3,27 +3,42 @@
     margin: 0;
 }
 
+/* ------------------------------------  MOMENTOS CAPTURADOS  -------------------------------------------------*/
 
-
-#galeria .col-lg-4{
-    margin: 0 !important;
-    padding: 25px;
-}
 
 #galeria img {
     width: 100%;
-    height: 400px;
+    height: 450px;
+    border-radius: 10px;
 }
 
 #galeria img:hover{
     border: 5px solid white;
 }
 
-#logVsco {
-    width: 80%;
-    height: 40px;
-    
+/* ------------------------------------  MOMENTOS CAPTURADOS  -------------------------------------------------*/
+
+
+/* ------------------------------------  LUGARES RANDOM  -------------------------------------------------*/
+.imgTam2 {
+    border-radius: 10px;
+    height: 600px;
 }
+
+.imgTam {
+    border-radius: 10px;
+    height: 506px;
+}
+
+.imgTam3 {
+    border-radius: 10px;
+    height: 600px;
+}
+
+/* ------------------------------------  LUGARES RANDOM  -------------------------------------------------*/
+
+
+/* ------------------------------------  TIPS -------------------------------------------------------------*/
 
 .tips{
     background-image: url(../img/fotos1/foto1.jpg);
@@ -32,8 +47,23 @@
 }
 
 .card:hover{
-    border: 5px solid white;
-
-    /* transform: scale(1.3,1.3); */
     transform: rotateZ(350deg);
 }
+
+.card-img-top:hover {
+    transform: rotateZ(15deg);
+    
+}
+
+/* ------------------------------------  TIPS -------------------------------------------------------------*/
+
+
+/* ------------------------------------  FOOTER  -------------------------------------------------*/
+
+#logVsco {
+    width: 80%;
+    height: 40px;
+    
+}
+
+/* ------------------------------------ FOOTER  -------------------------------------------------*/
